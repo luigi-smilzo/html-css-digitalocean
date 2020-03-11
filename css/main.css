@@ -11,31 +11,39 @@ body {
   text-transform: capitalize;
 }
 
-.icon::before {
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
 /* HEADER */
 /* Navbar */
 nav {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
   line-height: 70px;
 }
 
 nav img {
   max-width: 100%;
+  margin: 10px;
 }
 
 nav .left-nav li:nth-child(odd)::after,
-nav .right-nav li:nth-child(odd)::after {
+nav .right-nav li:nth-child(2)::after {
   content: '\f078';
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
+  padding-left: 4px;
+}
+
+nav li a {
+  padding-left: 5px;
+}
+
+nav li a.btn {
+  color: #0069ff;
+  border-color: #0069ff;
+}
+
+nav .hamburger i {
+  color: #0069ff;
+  font-size: 40px;
+  margin: 10px;
+  border: 1px solid #0069ff;
+  padding: 12px 16px;
+  border-radius: 6px;
 }
