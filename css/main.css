@@ -11,6 +11,12 @@ body {
   text-transform: capitalize;
 }
 
+h1 {
+  font-size: 64px;
+  font-weight: 400;
+  color: #fff;
+}
+
 /* HEADER */
 /* Navbar */
 nav {
@@ -46,4 +52,19 @@ nav .hamburger i {
   border: 1px solid #0069ff;
   padding: 12px 16px;
   border-radius: 6px;
+}
+
+/* Jumbotron */
+#jumbotron {
+  background-image: url(../img/bg-banner-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+#jumbotron .left p {
+  font-size: 22px;
+  color: rgba(255,255,255,0.7);
+  line-height: 32px;
 }
