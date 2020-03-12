@@ -5,7 +5,8 @@ body {
   padding-top: 80px;
 }
 
-section {
+section,
+footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -348,6 +349,35 @@ nav .hamburger i {
 
 #get-started .btn {
   color: #0069ff;
+}
+
+/* FOOTER */
+footer {
+  background-color: #031c4e;
+}
+
+footer img {
+  width: 45px;
+  padding-bottom: 8px;
+}
+
+footer span {
+  display: block;
+}
+
+footer span:nth-child(2) {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer span:nth-child(3) {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+footer i {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  padding-top: 10px;
+  padding-right: 6px;
 }
 
 /* MEDIA QUERY */
