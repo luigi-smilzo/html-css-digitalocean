@@ -86,6 +86,10 @@ div.slider i:nth-last-child(2) {
   border-radius: 50%;
 }
 
+.dots div:first-child {
+  background-color: #0069ff;
+}
+
 .dots div:hover {
   background-color: #0069ff;
 }
@@ -243,8 +247,8 @@ nav .hamburger i {
 #designed .row > div p {
   font-size: 20px;
   font-weight: 500;
-  line-height: 70px;
   padding-bottom: 40px;
+  padding-top: 10px;
 }
 
 #designed div.slider img {
@@ -378,6 +382,19 @@ footer i {
   font-size: 18px;
   padding-top: 10px;
   padding-right: 6px;
+}
+
+footer h4 {
+  color: white;
+}
+
+footer ul {
+  line-height: 26px;
+  text-transform: capitalize;
+}
+
+footer a {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /* MEDIA QUERY */
