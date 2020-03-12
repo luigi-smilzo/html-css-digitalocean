@@ -285,6 +285,10 @@ nav .hamburger i {
   position: relative;
 }
 
+#service div.regions:last-child {
+  border-bottom: 0;
+}
+
 #service span.region-code {
   display: inline-block;
   width: calc(20% - 10px);
