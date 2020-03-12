@@ -5,6 +5,11 @@ body {
   padding-top: 80px;
 }
 
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 /* TYPOGRAPHY */
 .list-inline a {
   color: #031b4e;
@@ -199,11 +204,6 @@ nav .hamburger i {
 }
 
 /* Deploy */
-#deploy {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 #deploy img {
   vertical-align: baseline;
 }
@@ -237,8 +237,6 @@ nav .hamburger i {
 /* Designed */
 #designed {
   background-color: #f3f5f9;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 #designed .row > div p {
@@ -259,11 +257,6 @@ nav .hamburger i {
 }
 
 /* Features */
-#features {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 #features img {
   vertical-align: baseline;
   padding-top: 30px;
@@ -271,8 +264,6 @@ nav .hamburger i {
 
 /* Service */
 #service {
-  padding-top: 60px;
-  padding-bottom: 60px;
   background-image: linear-gradient(#0048c5, #001f9a);
 }
 
@@ -312,8 +303,6 @@ nav .hamburger i {
 
 /* Development */
 #development {
-  padding-top: 60px;
-  padding-bottom: 60px;
   background-color: #f3f5f9;
 }
 
@@ -345,6 +334,20 @@ nav .hamburger i {
 
 #development .box a {
   padding-top: 20px;
+}
+
+/* Get started */
+#get-started {
+  background-image: linear-gradient(#0048c5, #001f9a);
+}
+
+#get-started h2 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#get-started .btn {
+  color: #0069ff;
 }
 
 /* MEDIA QUERY */
