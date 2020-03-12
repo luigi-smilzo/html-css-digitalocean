@@ -190,6 +190,47 @@ nav .hamburger i {
   padding-top: 20px;
 }
 
+/* Designed */
+#designed {
+  background-color: #f3f5f9;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#designed .row > div p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 70px;
+  padding-bottom: 40px;
+}
+
+#designed div.slider {
+  position: relative;
+}
+
+#designed div.slider img {
+  max-width: 100%
+}
+
+#designed div.slider i {
+  position: absolute;
+  font-size: 50px;
+  padding: 0 10px;
+}
+
+#designed div.slider i:nth-last-child(1) {
+  top: 50%;
+  left: -15px;
+  transform: translate(-50%, -50%);
+  opacity: .5;
+}
+
+#designed div.slider i:nth-last-child(2) {
+  top: 50%;
+  right: -15px;
+  transform: translate(50%, -50%);
+}
+
 /* MEDIA QUERY */
 /* Customers */
 @media all and (max-width: 767px) {
