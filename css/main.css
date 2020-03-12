@@ -23,6 +23,12 @@ h2 {
   color: #031b4e;
 }
 
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #031b4e;
+}
+
 a {
   color: #0069ff;
   text-decoration: none;
@@ -149,6 +155,19 @@ nav .hamburger i {
 }
 
 /* Deploy */
+#deploy {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#deploy img {
+  vertical-align: baseline;
+}
+
+#deploy .row div.text-center {
+  padding-bottom: 60px;
+}
+
 #deploy .row div.text-center p {
   font-size: 20px;
   font-weight: 500;
@@ -160,6 +179,15 @@ nav .hamburger i {
   text-transform: capitalize;
   padding-left: 10px;
   border-left: 1.5px solid #ccc;
+}
+
+#deploy ul.list-unstyled a {
+  color: rgba(3,27,78,.5);
+}
+
+#deploy .row .row > div:nth-last-child(1),
+#deploy .row .row > div:nth-last-child(2) {
+  padding-top: 20px;
 }
 
 /* MEDIA QUERY */
