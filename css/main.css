@@ -218,17 +218,43 @@ nav .hamburger i {
   padding: 0 10px;
 }
 
+#designed div.slider i:hover {
+  opacity: .5;
+}
+
 #designed div.slider i:nth-last-child(1) {
   top: 50%;
   left: -15px;
   transform: translate(-50%, -50%);
-  opacity: .5;
 }
 
 #designed div.slider i:nth-last-child(2) {
   top: 50%;
   right: -15px;
   transform: translate(50%, -50%);
+}
+
+#designed span {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: #031b4e;
+}
+
+#designed .dots {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#designed .dots div {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border: 1px solid #0069ff;
+  border-radius: 50%;
+}
+
+#designed .dots div:hover {
+  background-color: #0069ff;
 }
 
 /* MEDIA QUERY */
