@@ -257,6 +257,17 @@ nav .hamburger i {
   background-color: #0069ff;
 }
 
+/* Features */
+#features {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#features img {
+  vertical-align: baseline;
+  padding-top: 30px;
+}
+
 /* MEDIA QUERY */
 /* Customers */
 @media all and (max-width: 767px) {
