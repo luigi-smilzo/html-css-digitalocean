@@ -13,8 +13,14 @@ body {
 
 h1 {
   font-size: 64px;
-  font-weight: 400;
+  font-weight: 500;
   color: #fff;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #031b4e;
 }
 
 a {
@@ -131,10 +137,29 @@ nav .hamburger i {
   padding-bottom: 30px;
 }
 
+#customers p {
+  font-size: 16px;
+  font-weight: 700;
+}
+
 #customers img {
   display: inline-block;
   width: calc((100% / 6) - 10px);
   padding: 0 5px;
+}
+
+/* Deploy */
+#deploy .row div.text-center p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#deploy ul.list-unstyled {
+  font-size: 18px;
+  line-height: 40px;
+  text-transform: capitalize;
+  padding-left: 10px;
+  border-left: 1.5px solid #ccc;
 }
 
 /* MEDIA QUERY */
