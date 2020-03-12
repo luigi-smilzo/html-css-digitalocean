@@ -40,6 +40,50 @@ a {
   padding-left: 10px;
 }
 
+/* Slider */
+div.slider {
+  position: relative;
+}
+
+div.slider i {
+  position: absolute;
+  font-size: 50px;
+  padding: 0 10px;
+}
+
+div.slider i:hover {
+  opacity: .5;
+}
+
+div.slider i:nth-last-child(1) {
+  top: 50%;
+  left: -15px;
+  transform: translate(-50%, -50%);
+}
+
+div.slider i:nth-last-child(2) {
+  top: 50%;
+  right: -15px;
+  transform: translate(50%, -50%);
+}
+
+.dots {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.dots div {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border: 1px solid #0069ff;
+  border-radius: 50%;
+}
+
+.dots div:hover {
+  background-color: #0069ff;
+}
+
 /* HEADER */
 /* Navbar */
 nav {
@@ -204,57 +248,14 @@ nav .hamburger i {
   padding-bottom: 40px;
 }
 
-#designed div.slider {
-  position: relative;
-}
-
 #designed div.slider img {
   max-width: 100%
-}
-
-#designed div.slider i {
-  position: absolute;
-  font-size: 50px;
-  padding: 0 10px;
-}
-
-#designed div.slider i:hover {
-  opacity: .5;
-}
-
-#designed div.slider i:nth-last-child(1) {
-  top: 50%;
-  left: -15px;
-  transform: translate(-50%, -50%);
-}
-
-#designed div.slider i:nth-last-child(2) {
-  top: 50%;
-  right: -15px;
-  transform: translate(50%, -50%);
 }
 
 #designed span {
   padding-top: 20px;
   padding-bottom: 5px;
   color: #031b4e;
-}
-
-#designed .dots {
-  width: 100%;
-  margin: 0 auto;
-}
-
-#designed .dots div {
-  display: inline-block;
-  width: 9px;
-  height: 9px;
-  border: 1px solid #0069ff;
-  border-radius: 50%;
-}
-
-#designed .dots div:hover {
-  background-color: #0069ff;
 }
 
 /* Features */
@@ -307,6 +308,43 @@ nav .hamburger i {
   color: #00d7d2;
   display: inline-block;
   text-align: right;
+}
+
+/* Development */
+#development {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f3f5f9;
+}
+
+#development .box {
+  background-color: #fff;
+  padding: 50px 0;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+#development .box img {
+  max-width: 100%;
+}
+
+#development .box p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+#development .box span,
+#development .box a {
+  display: block
+}
+
+#development .box span:nth-child(3) {
+  font-weight: 700;
+  color: #031b4e;
+}
+
+#development .box a {
+  padding-top: 20px;
 }
 
 /* MEDIA QUERY */
