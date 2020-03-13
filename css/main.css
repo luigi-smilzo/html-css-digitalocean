@@ -302,8 +302,6 @@ nav .hamburger i {
   position: absolute;
   right: 10px;
   color: #00d7d2;
-  display: inline-block;
-  text-align: right;
 }
 
 /* Development */
