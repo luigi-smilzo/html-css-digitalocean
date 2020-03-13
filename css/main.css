@@ -395,6 +395,76 @@ footer a {
   color: rgba(255, 255, 255, 0.5);
 }
 
+/* Tooltip */
+#helper {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#helper .helper {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 20px;
+}
+
+#helper .balloon {
+  float: left;
+  position: relative;
+  background-color: #fff;
+  width: 300px;
+  border-radius: 5px;
+  padding: 10px;
+  line-height: 1.45;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
+  margin-right: 15px;
+}
+
+#helper .balloon p {
+  margin: 0;
+  color: rgb(3, 27, 78);
+}
+
+#helper .balloon::after {
+  content: '';
+  position: absolute;
+  bottom: 15px;
+  right: -5px;
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+#helper .shark {
+  position: relative;
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  border-radius: 5px;
+  background-color: #0069ff;
+  background-image: url('../img/chat-img.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#helper .notifications {
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  width: 26px;
+  height: 26px;
+  background: red;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+}
+
+
 /* MEDIA QUERY */
 /* Customers */
 @media all and (max-width: 767px) {
@@ -402,5 +472,29 @@ footer a {
     display: inline-block;
     width: calc(50% - 32px);
     padding: 0 30px;
+  }
+}
+
+/* Helper */
+@media all and (max-width: 991px) {
+  #helper .balloon {
+    float: none;
+    margin-top: 15px;
+  }
+
+  #helper .helper {
+    position: fixed;
+    left: 0px;
+  }
+
+  #helper .balloon::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    transform: rotate(45deg);
   }
 }
